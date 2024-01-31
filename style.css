@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background:
-        linear-gradient(45deg, #007bff, #27ae60);
+        linear-gradient(45deg, #b93ede, #f36989);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body {
  
 .clock {
     text-align: center;
-    background-color: #fff;
+    background-color: #0b0000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -21,18 +21,18 @@ body {
  
 h1 {
     font-size: 2rem;
-    color: green;
+    color: rgb(238, 171, 201);
 }
  
 h3 {
     font-size: 1.0rem;
-    color: #333;
+    color: #f9f7f7;
 }
  
 .time {
     font-size: 2rem;
     margin: 20px 0;
-    color: #333;
+    color: #fcf7f7;
 }
  
 .input-row {
@@ -67,8 +67,8 @@ input[type="time"] {
  
 #setAlarm,
 #updateTime {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #8c2146;
+    color: #fcfafa;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
